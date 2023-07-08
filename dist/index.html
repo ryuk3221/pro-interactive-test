@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+
+      <div class="header-top">
+        <div class="header-top__logo-box">
+          <img class="header-top__logo" src="images/logo.svg" alt="logotype" >
+        </div>
+
+        <nav class="header-top__nav">
+          <ul class="header-top__menu">
+            <li class="header-top__menu-item"><span class="menu-item--squares"></span><a class="header-top__menu-link" href="#">Каталог</a></li>
+            <li class="header-top__menu-item"><a class="header-top__menu-link" href="#">О нас</a></li>
+            <li class="header-top__menu-item"><a class="header-top__menu-link" href="#">Портфолио</a></li>
+            <li class="header-top__menu-item"><a class="header-top__menu-link" href="#">Кейтеринг</a></li>
+            <li class="header-top__menu-item"><a class="header-top__menu-link" href="#">Контакты</a></li>
+          </ul>
+          <button class="header-top__search"><img src="images/icons/search-icon.svg" alt="search-icon"></button>
+        </nav>
+
+        <div class="user-nav">
+          <button class="user-nav__btn"><img src="images/icons/favorites-icon.svg" alt="favorites-icon"></button>
+          <button class="user-nav__btn"><img src="images/icons/cart-icon.svg" alt="cart-icon"> <span class="cart-summ">0 ₽</span></button>
+        </div>
+
+        <a class="header-top__phone-link" href="tel:89999999990"><img src="images/icons/phone-icon.svg" alt="">8 999 999 99-90</a>
+
+      </div>
+    </div>
+    <div class="header-bot">
+      <div class="container">
+        <div class="header-bot__inner">
+          <nav class="header-bot__nav">
+            <ul class="header-bot__menu">
+              <li class="header-bot__menu-item header-bot__menu-item--active">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Сцены</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Шатры</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Медиа</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Мебель</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Ограждения</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Климат</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Генераторы</a>
+              </li>
+              <li class="header-bot__menu-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                  <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                </svg>
+                <a href="" class="header-bot__menu-link">Дополнительно</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <main class="main">
+    <div class="breadcrumbs">
+      <ul class="breadcrumbs__list">
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная - </a></li>
+        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Каталог - </a></li>
+        <li class="breadcrumbs__item breadcrumbs__item--active"><span> Сцены</span></li>
+      </ul>
+    </div>
+    <div class="banner">
+    
+    </div>
+
+    <div class="tab">
+      <div class="container">
+        <div class="tab__inner">
+          <button class="tab__item tab__item--active">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Все сцены</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Плоские</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Двускатные</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Надувные</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Пультовые</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Арка</span>
+          </button>
+          <button class="tab__item">
+            <div class="tab__img-box">
+              <img src="images/tabs/tab1.png" alt="">
+            </div>
+            <span class="tab__text">Подиум</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <div class="container">
+        <div class="catalog__inner">
+          
+          <div class="catalog__sidebar sidebar">
+
+            <div class="sidebar__item" id="sceni">
+              <button class="sidebar__btn" data-value="sceni">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Сцены
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="shatri">
+              <button class="sidebar__btn" data-value="shatri">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Шатры
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="media">
+              <button class="sidebar__btn" data-value="media">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Медиа
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="mebel">
+              <button class="sidebar__btn" data-value="mebel">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Мебель
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="ograj">
+              <button class="sidebar__btn" data-value="ograj">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Ограждения
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="climat">
+              <button class="sidebar__btn" data-value="climat">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Климат
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="generator">
+              <button class="sidebar__btn" data-value="generator">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Генераторы
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+            <div class="sidebar__item" id="dop">
+              <button class="sidebar__btn" data-value="dop">
+                <span class="sidebar__text">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
+                    <rect opacity="0.3" width="22" height="22" fill="#D9D9D9"/>
+                  </svg>
+                  Дополнительно
+                </span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 14 12" fill="none">
+                  <path d="M1 3L7 9L13 3" stroke="#80839F"/>
+                </svg>
+              </button>
+              <ul class="sidebar__menu ">
+                <li class="sidebar__item sidebar__item--active"><a class="sidebar__item-link" href="#">Все сцены</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Плоская</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Двускатные</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Надувная</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Пультовая</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Арка</a></li>
+                <li class="sidebar__item"><a class="sidebar__item-link" href="#">Подиум</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="catalog__main">
+
+            <div class="catalog__items">
+
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn catalog-item__favorite-btn--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn catalog-item__favorite-btn--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z" fill="#B8B9C6"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="catalog__item catalog-item">
+                <div class="catalog-item__img-box">
+                  <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+                </div>
+                <div class="catalog-item__content">
+                  <h6 class="catalog-item__title">Другая сцена</h6>
+                  <p class="catalog-item__text">
+                    Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                  </p>
+                  <div class="catalog-item__row">
+                    <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                    <button class="catalog-item__favorite-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="catalog-item__row">
+                    <a class="catalog-item__link" href="#">Подробнее</a>
+                    <button class="catalog-item__cart-btn">
+                      <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                        <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+
+            <div class="catalog__main-footer">
+              <button class="main-footer__btn">Показать ещё</button>
+              <div class="pagination">
+                <ul class="pagination__list">
+                  <li class="pagination__item"><span class="pagination__list-link pagination__list-link--active">1</span></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">2</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">3</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">4</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">5</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">6</a></li>
+                  <li class="pagination__item"><a href="#" class="pagination__list-link">7</a></li>
+                </ul>
+                <div class="pagination__links">
+                  <span class="pagination__link">
+                    <img src="images/icons/btn-left-disabled.svg" alt="">
+                  </span>
+                  <a class="pagination__link" href="">
+                    <img src="images/icons/btn-right.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="goods">
+      <div class="slider-container">
+        <h1 class="goods__title">Интересные товары</h1>
+
+        <div class="goods__inner">
+
+          <div class="goods__item">
+
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="goods__item">
+            
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="goods__item">
+            
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="goods__item">
+            
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="goods__item">
+            
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="goods__item">
+            
+            <div class="catalog__item catalog-item">
+              <div class="catalog-item__img-box">
+                <img class="catalog-item__img" src="images/catalog/catalog-item1.jpg" alt="catalog-item1">
+              </div>
+              <div class="catalog-item__content">
+                <h6 class="catalog-item__title">Другая сцена</h6>
+                <p class="catalog-item__text">
+                  Урна для мусора понадобится на любое мероприятие, послужит для вас классным украшением и...
+                </p>
+                <div class="catalog-item__row">
+                  <p class="catalog-item__price">250 <span>/ сутки</span></p>
+                  <button class="catalog-item__favorite-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                      <path d="M32.9497 14.5863C32.8551 14.3187 32.683 14.0836 32.4544 13.9095C32.2257 13.7355 31.9502 13.63 31.6614 13.6059L23.138 12.3913L19.3182 4.82551C19.1956 4.5781 19.0041 4.36944 18.7656 4.22344C18.5272 4.07744 18.2515 4 17.9701 4C17.6887 4 17.413 4.07744 17.1745 4.22344C16.9361 4.36944 16.7446 4.5781 16.6219 4.82551L12.8021 12.3766L4.2787 13.6059C4.00147 13.6444 3.74082 13.758 3.52635 13.9339C3.31188 14.1098 3.15218 14.3409 3.06536 14.601C2.98588 14.8551 2.97875 15.1256 3.04473 15.3834C3.1107 15.6413 3.24729 15.8767 3.43985 16.0644L9.62643 21.9179L8.12846 30.23C8.06799 30.5057 8.09035 30.7927 8.19285 31.0563C8.29536 31.3199 8.47365 31.549 8.70627 31.7159C8.93889 31.8829 9.21594 31.9806 9.50409 31.9974C9.79223 32.0142 10.0792 31.9493 10.3305 31.8105L17.9701 27.9032L25.6097 31.8105C25.8199 31.9263 26.0574 31.9868 26.2987 31.9861C26.616 31.9872 26.9255 31.8898 27.1825 31.708C27.4149 31.5454 27.5948 31.3212 27.701 31.0619C27.8072 30.8026 27.8352 30.519 27.7817 30.2446L26.2838 21.9326L32.4703 16.079C32.6866 15.9 32.8465 15.6647 32.9313 15.4005C33.0162 15.1363 33.0225 14.854 32.9497 14.5863ZM23.7372 20.4399C23.5638 20.6044 23.4338 20.8074 23.3581 21.0317C23.2825 21.2559 23.2635 21.4947 23.3028 21.7277L24.3813 27.8739L18.749 24.9472C18.5301 24.8414 18.2892 24.7863 18.045 24.7863C17.8007 24.7863 17.5598 24.8414 17.3409 24.9472L11.7086 27.8739L12.7871 21.7277C12.8264 21.4947 12.8074 21.2559 12.7318 21.0317C12.6562 20.8074 12.5261 20.6044 12.3527 20.4399L7.85883 16.0497L14.1652 15.1571C14.4079 15.1241 14.6386 15.0335 14.8371 14.8931C15.0356 14.7528 15.1958 14.5671 15.3037 14.3522L17.9701 8.77667L20.7862 14.3668C20.8942 14.5817 21.0544 14.7675 21.2529 14.9078C21.4513 15.0481 21.682 15.1387 21.9247 15.1717L28.2311 16.0644L23.7372 20.4399Z"/>
+                    </svg>
+                  </button>
+                </div>
+                <div class="catalog-item__row">
+                  <a class="catalog-item__link" href="#">Подробнее</a>
+                  <button class="catalog-item__cart-btn">
+                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="36" height="36" rx="4" fill="#E6466C"/>
+                      <path d="M17.302 22.588V19.366H14.08V17.665H17.302V14.452H19.003V17.665H22.207V19.366H19.003V22.588H17.302Z" fill="white"/>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="promo">
+      <div class="container">
+        <div class="promo__inner">
+          <div class="promo__text-box">
+            <h3 class="promo__title">Затрудняетесь с выбором?</h3>
+            <p class="promo__text">Рассчитайте примерную стоимость <br> или оставьте заявку и мы вам перезовним</p>
+          </div>
+          <div class="promo__links">
+            <a class="promo__link-one" href="#">Оставить заявку</a>
+            <a class="promo__link-two" href="#">Рассчитать стоимость</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="seo-text">
+      <div class="container">
+        <div class="seo-text__inner">
+          <div class="seo-text__img-box">
+            <img class="seo-text__img" src="images/seo-img.png" alt="">
+          </div>
+          <div class="seo-text__content">
+            <h1 class="seo-text__title">СЕО Текст</h1>
+            <p class="seo-text__text">
+              Объёмный, вместительный и очень стильный шатер Пагода станет незаменим на Вашем выездном торжественном мероприятии. Оборудуйте зону отдыха вместе с надёжной защитой от снега, ветра, дождей и солнца. Вместительность площади позволит разместить в шатер большое количество гостей. Оборудуйте пространство внутри мебелью, различным декором и проведите время с комфортом! Не беспокойтесь, места точно хватит всем! Объёмный, вместительный и очень стильный шатер Пагода станет незаменим на Вашем выездном торжественном мероприятии. Оборудуйте зону отдыха вместе с надёжной защитой от снега, ветра, дождей и солнца. Вместительность площади позволит разместить в шатер большое количество гостей. Оборудуйте пространство внутри мебелью, различным декором и проведите время с комфортом! Не беспокойтесь, места точно хватит всем! Оборудуйте пространство внутри мебелью, различным декором и проведите время с комфортом! Не беспокойтесь, места точно хватит всем!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+
+        <div class="footer-top__item">
+          <div class="footer-top__logo-box">
+            <img class="footer-top__logo" src="images/logo.svg" alt="logotype" >
+          </div>
+          <p class="footer-top__item-text">Сцены в аренду © 2022 Все права защищены</p>
+        </div>
+
+        <div class="footer-top__menu-box">
+          <ul class="footer-top__menu-list">
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Сцены</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Шатры</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Медиа</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Мебель</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Ограждения</a></li>
+          </ul>
+          <ul class="footer-top__menu-list">
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Климат</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Генераторы</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Дополнительно</a></li>
+          </ul>
+          <ul class="footer-top__menu-list">
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">О нас</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Портфолио</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Вопросы и ответы</a></li>
+            <li class="footer-top__menu-item"><a href="#" class="footer-top__menu-link">Контакты</a></li>
+
+          </ul>
+        </div>
+
+        <div class="footer-top__last-item">
+          <div class="footer-top__last-item-linkbox">
+            <img src="images/icons/footer-phone.svg" alt="">
+            <a class="footer-top__last-item-link" href="tel:89999999990">8 999 999 99-90</a>
+          </div>
+          <a class="footer-top__last-item-emal" href="mailto:sceniarenda@google.com">sceniarenda@google.com</a>
+          <a class="footer-top__geo-link" href="https://yandex.ru/maps/213/moscow/house/yegoryevskiy_proyezd_2as7/Z04YcQRjSEcEQFtvfXp2cn5qYg==/?ll=37.734182%2C55.672898&z=18.35">Москва, Егорьевский пр-д 2а</a>
+        </div>
+
+      </div>
+      <div class="footer-bot">
+        <a class="footer-bot__politic" href="#">Политика конфиденциальности</a>
+        <div class="footer-bot__social">
+          <a class="footer-bot__link" href="#"><img src="images/icons/whatsapp.svg" alt=""></a>
+          <a class="footer-bot__link" href="#"><img src="images/icons/tg.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/main.min.js"></script>
+</body>
+</html>
